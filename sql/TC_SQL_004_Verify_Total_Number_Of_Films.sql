@@ -1,4 +1,4 @@
--- TC004: Verify total number of films
+-- TC_SQL_004: Verify total number of films
 
 SELECT COUNT (*)
 AS total_films
