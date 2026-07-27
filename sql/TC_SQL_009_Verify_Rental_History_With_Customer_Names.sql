@@ -6,7 +6,7 @@ SELECT r.rental_id, r.rental_date, c.customer_id
 CONCAT(c.first_name, ' ', c.last_name) AS customer_name
 FROM rental r
 JOIN customer c ON r.customer_id = c.customer_id
-ORDER BY rental_date;
+ORDER BY rental_date, customer_id;
 
 -- Supporting Query
 
